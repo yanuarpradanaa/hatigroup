@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/vendor/boxicons/css/boxicons.min.css">
+        <link rel="stylesheet" href="assets/vendor/xzoom/xzoom.min.css">
+        <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+        <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+        <!-- Favicons -->
+        <link href="assets/img/company/iconfix2.png" rel="icon">
+        <link href="assets/img/company/iconfix2.png" rel="apple-touch-icon">
+        <!-- <link href="assets/img/company/logo32.png" rel="icon">
+        <link href="assets/img/company/logo180.png" rel="apple-touch-icon"> -->
+        
+        <title>HATI - Bekerja Dengan HATI</title>
+        <!-- Primary Meta Tags -->
+        <meta name="title" content="Hati Textile — Art of Textile">
+        <meta name="description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s">
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://hatigroup.co.id/">
+        <meta property="og:title" content="Hati Textile — Art of Textile">
+        <meta property="og:description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s">
+        <meta property="og:image" content="assets/img/1">
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://hati.com/">
+        <meta property="twitter:title" content="Hati Textile — Art of Textile">
+        <meta property="twitter:description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s">
+        <meta property="twitter:image" content="assets/img/1">
+    </head>
+    <body>
+        <header id="header" class="d-flex flex-column justify-content-center">
+            <!-- Logo -->
+            <div class="container">
+                <a class="logo" href="#">
+                <img src="assets/img/company/logo.png" alt="HATI" width="auto" height="50">
+                </a>
+                <button class="btn bg-transparent border-0 nav-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-list fw-bold" viewBox="0 0 16 16">
+                        <path fill-rule="nonzero" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <nav class="nav flex-column">
+                        <ul>
+                            <li><a href="#hero">HOME</a></li>
+                            <li><a href="#about">ABOUT US</a></li>
+                            <li><a href="#">COMPANY PROFILE</a></li>
+                            <li><a href="#">PRODUCT CATALOGUE</a></li>
+                            <hr class="dropdown-divider w-50">
+                            <li><a href="https://customer.hatigroup.co.id/" target="_blank">LOGIN</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- Side Navbar -->
+            <nav id="navbar" class="navbar nav-menu">
+                <ul>
+                    <li><a href="#intro" class="nav-link scrollto active"><span>Home</span></a></li>
+                    <li><a href="#about" class="nav-link scrollto"><span>About</span></a></li>
+                    <li><a href="#product" class="nav-link scrollto"><span>Resume</span></a></li>
+                    <li><a href="#material" class="nav-link scrollto"><span>Portfolio</span></a></li>
+                    <li><a href="#feature" class="nav-link scrollto"><span>Services</span></a></li>
+                    <li><a href="#contact" class="nav-link scrollto"><span>Contact</span></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero -->
+        <section id="intro" class="d-flex flex-column justify-content-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 d-none d-lg-block" data-aos="fade-right">
+                        <div class="intro-text text-wrap position-absolute top-50 translate-middle">
+                            <!-- <hr class="dropdown-divider w-50"> -->
+                            <h1 data-aos="fade-right">ART OF TEXTILE</h1>
+                            <img src="assets/img/company/logo-black.png" height="50" width="auto" alt="Hati Textile">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-12">
+                    <!-- <div class="col-lg-9 col-md-12"> -->
+                        <!-- Swiper -->
+                        <div class="swiper mySwiper">
+                            <div class="product swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img data-src="assets/img/products/cover1.jpg" class="swiper-lazy"/>
+                                    <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img data-src="assets/img/products/cover2.jpg" class="swiper-lazy"/>
+                                    <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img data-src="assets/img/products/cover3.jpg" class="swiper-lazy"/>
+                                    <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <main>
+            <section id="introMobile" class="d-block d-lg-none d-xl-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" data-aos="fade-up">
+                            <div class="intro-text text-center">
+                                <h1>ART OF TEXTILE</h1>
+                                <img src="assets/img/company/logo-black.png" class="mt-5" height="50" width="auto" alt="Hati Textile">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        <!-- About Us -->
+        <section id="about" class="d-flex flex-column justify-content-center">
+            <div class="hero-container" data-aos="fade-up">
+                <div class="carousel-container">
+                    <div class="carousel-content ">
+                        <h2 class="thin">About <br> Us</h2>
+                        <p>PT Harapan Abadi Tekstil Indonesia, also known as HATI, is a future leading textile manufacturer located in Pasuruan, Indonesia. Focused on providing  reliable, sustainable and high quality products with our finest material. We appreciate design as an art, by passion of our skilled designers and artisans to deliver the premium solution to meet our customer demand.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product -->
+        <section id="product" class="d-flex flex-column justify-content-center">
+            <div class="row">
+                <div class="col-lg-9 cover">
+                    <img src="assets/img/content/machine.jpg" class="img-fluid">
+                    <div class="content-mobile">
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 content">
+                    <h3 class="head" data-aos="fade-up" data-aos-delay="100">High Performance</h3>
+                    <h3 class="thin" data-aos="fade-up" data-aos-delay="200">EVERY DETAILS MATTERS</h3>
+                    <p data-aos="fade-up" data-aos-delay="300">
+                        Our passion to produce high quality products is matched only by installing the latest modern, high performance and technology textile equipment. Nothing is extraneous for us, every detail matters. You may get your fabric custom printed with an original design for your collection. We have thousands of prints available for you to choose from. You can browse, select and customize any print that suits your business needs.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="material" class="d-flex flex-column justify-content-center">
+            <div class="container">
+                <!-- <div class="row material-container">
+                    <div class="col-lg-8 mt-4">
+                        <div class="d-flex flex-wrap mx-auto justify-content-center">
+                            <div class="col-lg-12 mt-5 mt-lg-0">
+                                <div class="row align-self-center gy-2">
+                                    <div class="col-lg-6 col-md-6 col-6 material-item mb-3" data-aos="fade-right" data-aos-delay="100">
+                                        <div class="material-wrap">
+                                            <img src="assets/img/products/cvc.jpg" class="img-fluid" alt="">
+                                            <div class="material-info">
+                                                <h4>CVC</h4>
+                                            <div>
+                                                <a href="assets/img/products/cvc.jpg" data-gallery="portfolioGallery" title="CVC" class="portfolio-lightbox link-preview"><i class="bi bi-eye"></i></a>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-6 material-item" data-aos="fade-right" data-aos-delay="200">
+                                        <div class="material-wrap">
+                                            <img src="assets/img/products/rayon.jpg" class="img-fluid" alt="">
+                                            <div class="material-info">
+                                                <h4>RAYON</h4>
+                                            <div>
+                                                <a href="assets/img/products/rayon.jpg" data-gallery="portfolioGallery" title="RAYON" class="portfolio-lightbox link-preview"><i class="bi bi-eye"></i></a>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-6 material-item" data-aos="fade-right" data-aos-delay="300">
+                                        <div class="material-wrap">
+                                            <img src="assets/img/products/cotton.jpg" class="img-fluid" alt="">
+                                            <div class="material-info">
+                                                <h4>COTTON</h4>
+                                            <div>
+                                                <a href="assets/img/products/cotton.jpg" data-gallery="portfolioGallery" title="COTTON" class="portfolio-lightbox link-preview"><i class="bi bi-eye"></i></a>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-6 material-item" data-aos="fade-right" data-aos-delay="400">
+                                        <div class="material-wrap">
+                                            <img src="assets/img/products/lycra.jpg" class="img-fluid" alt="">
+                                            <div class="material-info">
+                                                <h4>LYCRA</h4>
+                                            <div>
+                                                <a href="assets/img/products/lycra.jpg" data-gallery="portfolioGallery" title="LYCRA" class="portfolio-lightbox link-preview"><i class="bi bi-eye"></i></a>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 quality align-self-center">
+                        <h3 class="head" data-aos="fade-up" data-aos-delay="100">High Quality</h3>
+                        <h3 class="thin" data-aos="fade-up" data-aos-delay="200">THE FINEST MATERIAL</h3>
+                        <p data-aos="fade-up" data-aos-delay="300">
+                            We provide various types of  the finest fabrics materials with different types of categories that matches our customers needs.
+                        </p>
+                    </div>
+
+                </div> -->
+                
+                <!-- accordion 1 -->
+                <!-- <div class="box">
+                    <img src="assets/img/products/lycra.jpg">
+                    <span>LYCRA</span>
+                </div>
+                <div class="box">
+                    <img src="assets/img/products/rayon.jpg">
+                    <span>RAYON</span>
+                </div>
+                <div class="box">
+                    <img src="assets/img/products/cvc.jpg">
+                    <span>CVC</span>
+                </div>
+                <div class="box">
+                    <img src="assets/img/products/cotton.jpg">
+                    <span>COTTON</span>
+                </div> -->
+
+                <div class="card">
+                    <img src="assets/img/products/rayon.jpg">
+                    <div class="card__head">RAYON</div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/products/cvc.jpg">
+                    <div class="card__head">CVC</div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/products/lycra.jpg">
+                    <div class="card__head">LYCRA</div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/products/cotton.jpg">
+                    <div class="card__head">COTTON</div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Feature -->
+        <section id="feature" class="d-flex flex-column justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4" data-aos="fade-right" data-aos-delay="200">
+                        <div class="text-center">
+                            <img src="assets/img/icon/tech1.png" width="80px" height="80px" alt="">
+                            <h3 class="thin mt-4 mb-4">TECHNOLOGY</h3>
+                            <!-- Font Atilla Thin -->
+                        </div>
+                        <p>
+                            Innovation is the future. Our advanced technical equipment uses science and information technology to provide solutions to our customers. We are dedicated to continuously improve our manufacture as well as product innovation to meet customer expectation.
+                        </p>
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-right" data-aos-delay="350">
+                        <div class="text-center">
+                            <img src="assets/img/icon/quality2.png" width="80px" height="80px" alt="">
+                            <h3 class="thin mt-4 mb-4">QUALITY</h3>
+                            <!-- Font Atilla Thin -->
+                        </div>
+                        <p>
+                            We have a strict quality standard inspection system. The product inspection system is continuously updated, in addition to verifying product quality and ensure accuracy and precision.
+                        </p>
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-right" data-aos-delay="500">
+                        <div class="text-center">
+                            <img src="assets/img/icon/sustain1.png" width="80px" height="80px" alt="">
+                            <h3 class="thin mt-4 mb-4">SUSTAINBILITY</h3>
+                            <!-- Font Atilla Thin -->
+                        </div>
+                        <p>
+                            We understand the importance of the ethical and ecological standards of manufacturing our products. our systems approach to sustainable manufacturing. To us, is more than the use of organic cotton and better working conditions. Our main strategy is to reduce, reuse, and recycle as much as possible.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us -->
+        <section id="contact" class="d-flex flex-column justify-content-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-center" data-aos="fade-right" data-aos-delay="100">
+                            <img src="assets/img/company/logo-black.png" class="mt-5" height="50" width="auto" alt="Hati Textile">
+                        </div>
+                        <p class="mt-4" data-aos="fade-right" data-aos-delay="300">
+                            <strong>PT. Harapan Abadi Tekstil Indonesia<br></strong>
+                            Jl. Raya Surabaya - Pandaan KM 41, Ds Kepulungan, Pandaan, East Java <br>
+                            (0343) 633466 &nbsp;&nbsp;&nbsp; (0343) 633477
+                        </p>
+                        <div class="info" data-aos="fade-right" data-aos-delay="500">
+                            <!-- <div class="address">
+                                <i class="bi bi-geo-alt"></i>
+                                <h5>Location:</h5>
+                                <p>Jl. Raya Surabaya - Pandaan KM 41, Damean, Kepulungan, Gempol, Pasuruan, East Java</p>
+                                </div> -->
+                            <div class="col-lg-12 mt-3 mt-lg-0">
+                                <div class="row align-self-center gy-2">
+                                    <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+                                        <div class="sosmed">
+                                            <i class="bi bi-envelope"></i>
+                                            <h5>Email:</h5>
+                                            <p><a href="mailto:hi@indoffe.com" target="_blank">info@hatigroup.co.id</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+                                        <div class="sosmed">
+                                            <i class="bi bi-whatsapp"></i>
+                                            <h5>Whatsapp:</h5>
+                                            <p><a href="https://wa.me/628159331000" target="_blank">+6281 5933 1000</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+                                        <div class="sosmed">
+                                            <i class="bi bi-facebook"></i>
+                                            <h5>Facebook:</h5>
+                                            <p><a href="https://www.facebook.com/hatigroup/" target="_blank">Hati Group</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+                                        <div class="sosmed">
+                                            <i class="bi bi-instagram"></i>
+                                            <h5>Instagram:</h5>
+                                            <p><a href="https://www.instagram.com/hatigroup/" target="_blank">@hatigroup</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+                                        <div class="sosmed">
+                                            <i class="bi bi-youtube"></i>
+                                            <h5>Youtube:</h5>
+                                            <p><a href="https://www.youtube.com/channel/UCrFT7AbDXvCmqB_OXQeY5bw/videos" target="_blank">Hati Group Official</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="zoom-in-up" data-aos-delay="100">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16759.458506683124!2d112.67575075938348!3d-7.606975597174606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7d97f59cec9c3%3A0x3acd8b5f60e0c71d!2sPT.%20HARAPAN%20ABADI%20TEKSTIL%20INDONESIA%20(HATI)!5e0!3m2!1sen!2sid!4v1636959501944!5m2!1sen!2sid" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </main>
+
+        <script src="assets/vendor/jquery/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="assets/vendor/xzoom/xzoom.min.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
+
+        <script src="assets/js/main.js"></script>
+        <!-- <script src="assets/vendor/retina/retina.min.js"></script> -->
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                lazy: true,
+                loop: true,
+                autoplay: {
+                    delay: 8000,
+                    disableOnInteraction: false,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+        <!-- Script xzoom -->
+        <script>
+            $(document).ready(function(){
+                $('.xzoom, .xzoom-gallery').xzoom({
+                    zoomWidth: 500,
+                    title: false,
+                    tint: '#333',
+                    Xoffset: 15
+                });
+            });
+        </script>
+        <!--Start of Tawk.to Script-->
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+            (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/6191ca346bb0760a49429ad3/1fkgnro28';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+            })();
+        </script>
+        <!--End of Tawk.to Script-->
+    </body>
+</html>
